@@ -1,0 +1,504 @@
+/* stepthree styles */
+
+.stepthreebody{
+    background-color: beige;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 8px; 
+    
+  }
+  
+  .checkbox1,
+  .checkbox2,
+  .checkbox3 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox,
+  .prof,
+  .industry,
+  .key {
+    margin-bottom: 10px;
+  }
+  
+  .prof select,
+  .industry select,
+  .key select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #3498db; 
+    border-radius: 5px; 
+  }
+  
+  .stepThreebutton {
+    background-color: #4caf50; 
+    color: white;
+    padding: 10px 15px;
+    border: n
+  }  
+  
+  
+
+.dateInput {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #3498db; 
+    border-radius: 5px;
+}
+  
+ 
+  .dateLabel {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; 
+    font-weight: bold;
+  }
+  
+  .desc {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #3498db; 
+    border-radius: 5px; 
+  }
+  
+  .keyinput{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #3498db; 
+    border-radius: 5px; 
+
+  }
+
+
+
+/* steptwo styles */
+
+.steptwobody{
+    background-color: beige;
+}
+.instituationinput{
+
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #3498db; /* Updated border color */
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+
+.rami123 {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #3498db; 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .container {
+    margin-bottom: 20px;
+  }
+  
+  .totalexp,
+  .currentwork,
+  .exsummary,
+  .trust-box,
+  .key-companies {
+    margin-bottom: 20px;
+  }
+  
+  .totalexp p,
+  .currentwork p,
+  .exsummary p,
+  .trust-box p,
+  .key-companies p {
+    margin: 10px 0;
+  }
+  
+  .experience,
+  .selectdegree,
+  .specializationinput,
+  .name,
+  .issuing,
+  .dateLabel,
+  .companyname,
+  .position,
+  .country,
+  .select,
+  .stepThreebutton {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #3498db; /* Updated border color */
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .radio {
+    margin-right: 5px;
+  }
+  
+  .textarea textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #3498db; /* Updated border color */
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .select,
+  .dateLabel {
+    appearance: none;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #3498db; /* Updated border color */
+    border-radius: 5px;
+    font-size: 14px;
+    background: #fff url('data:image/svg+xml;utf8,<svg fill="#000000" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z" /></svg>') no-repeat right 8px center;
+    background-size: 18px;
+  }
+  
+  .stepThreebutton {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .stepThreebutton:hover {
+    background-color: #45a049;
+  }
+  
+  /* stepone styles */
+
+.steponebody{
+    background-color: beige;
+}
+
+.stepone {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .stepone h1 {
+    text-align: center;
+  }
+  
+  .stepone form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .stepone label {
+    margin: 10px 0;
+  }
+  
+  .stepone input,
+  .stepone select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #3498db; 
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .stepone select {
+    appearance: none;
+    background: #fff url('data:image/svg+xml;utf8,<svg fill="#000000" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z" /></svg>') no-repeat right 8px center;
+    background-size: 18px;
+  }
+  
+  .stepone button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .stepone button:hover {
+    background-color: #45a049;
+  }
+  
+  /* login styles */
+
+  body.loginbody {
+    background-color:beige;
+  }
+.form-container {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:beige;
+  }
+  
+  .form-container h1 {
+    text-align: center;
+  }
+  
+  .youremail,
+  .yourpass {
+    margin-bottom: 20px;
+  }
+  
+  .youremail label,
+  .yourpass label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .youremail input,
+  .yourpass input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #3498db; 
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .youremail ,
+  .yourpass {
+    
+    margin-top: 5px;
+  }
+  
+  .loginbutton {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .loginbutton:hover {
+    background-color: rgb(20, 20, 210)
+  }
+  
+  .login div {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .login span {
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .login span:hover {
+    text-decoration: underline;
+  }
+  
+   /* register styles */
+
+ .registrationbody{
+    background-color: beige;
+ }
+
+.registration-form {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .registration-form h1 {
+    text-align: center;
+  }
+  
+  .registration-form div {
+    margin-bottom: 20px;
+  }
+  
+  .registration-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .registration-form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .registration-form input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .registration-form button {
+    background-color: #a0a0a0;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .registration-form button:disabled {
+    background-color: #a0a0a0;
+    cursor: not-allowed;
+  }
+  
+  .registration-form button:hover {
+    background-color: #958d8d;
+  }
+  
+  .registration-form div:last-child {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .registration-form .regloginbutton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .registration-form .regloginbutton:hover {
+    background-color: #297fb8;
+  }
+  
+  
+  .regcheckbox {
+    display: flex;
+    align-items: center;
+
+   
+  }
+  
+  .acceptterms {
+   margin-left: 85px;
+  }
+  
+
+  
+/* oTP styles */
+
+.otp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+  }
+  
+ 
+  .otp-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .otpbutton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  .otpbutton:hover {
+    background-color: #2980b9;
+  }
+  
+  
+  .otpbutton:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+
+  /* stepfour styles */
+
+  .stepfourbody{
+    background-color: beige;
+  }
+
+  .yourtitle{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    font-size: 14px;
+   
+  }
+
+  .utiinput{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    font-size: 14px;
+
+  }
+
+  .radio2{
+    margin-left: 30px;
+  }
+  
+  .radio3{
+    margin-left: 30px;
+  }
+  .radio4{
+    margin-left: 30px;
+  }
+  .availabilitydate{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .first {
+    border: 5px solid #3498db; /* Choose your desired border color */
+    padding: 10px;
+  } 
